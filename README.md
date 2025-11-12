@@ -1,30 +1,8 @@
-# TanStack Query Demo
+# React + Vite
 
-A simple React app demonstrating [TanStack Query](https://tanstack.com/query/latest) for efficient data fetching, caching, and synchronization.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- Fetch products from [DummyJSON API](https://dummyjson.com).
-- Automatic loading states and error handling.
-- Infinite queries for product lists.
-- Optimistic updates on mutations.
+Currently, two official plugins are available:
 
-## Tech Stack
-- React 18
-- TanStack Query v5
-- React Router v6
-- Tailwind CSS
-
-## Installation
-1. Clone the repo: `git clone <your-repo-url>`
-2. Install dependencies: `npm install`
-3. Run dev server: `npm run dev`
-
-## Usage
-Navigate to `/products` for the list or `/product/:id` for details. Data fetches automatically!
-
-## Docs
-- [TanStack Query Guide](https://tanstack.com/query/latest/docs/react/overview)
-
-![Demo Screenshot](https://via.placeholder.com/800x400?text=TanStack+Query+Demo)
-
-⭐ Star if useful! Contributions welcome via PRs.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
